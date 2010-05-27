@@ -1,0 +1,616 @@
+zh-CN:
+  language: 中文（简体）
+
+  # Generic terms.
+  #----------------------------------------------------------------------------
+  all: 所有
+  at: 在
+  here: 这里
+  no_button: '否'
+  not_implemented: 未实现
+  or: 或
+  select_none: '-- 无 --'
+  select_blank: '-- 选择 --'
+  yes_button: '是'
+
+  # Settings.
+  #----------------------------------------------------------------------------
+  tab_dashboard: 摘要
+  tab_tasks: 任务
+  tab_campaigns: 战役
+  tab_leads: Leads
+  tab_accounts: 账号
+  tab_contacts: 联系人
+  tab_opportunities: 机会
+
+  admin_tab_users: 用户
+  admin_tab_settings: 设置
+  admin_tab_plugins: 插件
+
+  planned: 计划
+  started: 已开始
+  on_hold: 搁置
+  completed: 完成
+  called_off: 取消
+
+  new: 新建
+  contacted: 已联系
+  converted: 已转换
+  rejected: 已拒绝
+
+  cold_call: 冷电话 
+  conference: 会议
+  online: 在线营销
+  referral: 转来
+  self: 自己产生
+  web: 网站
+  word_of_mouth: 口头
+  other: 其它
+
+  prospecting: 展望
+  analysis: 分析
+  presentation: 演示
+  proposal: 建议
+  negotiation: 谈判
+  final_review: 最后审查
+  won: 结束／赢
+  lost: 结束／输
+
+  call: 电话
+  email: Email
+  follow_up: 跟进
+  lunch: 午餐
+  meeting: 会议
+  money: 钱
+  presentation: 演示
+  trip: 旅行
+
+  overdue: 逾期
+  due_asap: 尽快
+  due_today: 今天
+  due_tomorrow: 明天
+  due_this_week: 本周
+  due_next_week: 下周
+  due_later: 以后
+  due_specific_date: 特定日期...
+
+  completed_today: 今天
+  completed_yesterday: 昨天
+  completed_last_week: 上周
+  completed_this_month: 本月
+  completed_last_month: 上月
+
+  # Models/Activity.
+  #----------------------------------------------------------------------------
+  one_hour: 1小时
+  one_day: 1天
+  two_days: 2天
+  one_week: 1周
+  two_weeks: 2周
+  one_month: 1月
+
+  # Model Validations.
+  #----------------------------------------------------------------------------
+  activerecord:
+    errors:
+      models:
+        authentication:
+          attributes:
+            login_field:
+              is_not_valid: 非法
+            password_field:
+              is_not_valid: 非法
+        account:
+          attributes:
+            name:
+              missing_account_name: "^请指定用户名"
+            access:
+              share_account: "^请指定可以共享账号的用户"
+        campaign:
+          attributes:
+            name:
+              missing_campaign_name: "^请指定战役名称"
+            ends_on:
+              dates_not_in_sequence: "^请确认战役开始日期在结束日期之前"
+            access:
+              share_campaign: "^请指定可以共享战役的用户"
+        contact:
+          attributes:
+            first_name:
+              missing_first_name: "^请指定用户的名"
+            last_name:
+              missing_last_name: "^请指定用户的姓"
+            access:
+              share_contact: "^请指定可以共享联系人的用户"
+        lead:
+          attributes:
+            first_name:
+              missing_first_name: "^请指定用户的名"
+            last_name:
+              missing_last_name: "^请指定用户的姓"
+            access:
+              share_lead: "^请指定可以共享Lead的用户"
+        opportunity:
+          attributes:
+            name:
+              missing_opportunity_name: "^请指定机会名称"
+            access:
+              share_opportunity: "^请指定可以共享机会的用户"
+        task:
+          attributes:
+            name:
+              missing_task_name: "^请指定任务名称"
+            calendar:
+              invalid_date: "^请指定合法日期"
+        user:
+          attributes:
+            username:
+              missing_username: "^请指定用户名"
+              username_taken: "^此用户名已有人使用"
+            email:
+              missing_email: "^请指定邮件地址"
+              email_in_use: "^此邮件地址已经有人使用"
+
+  msg_account_suspended: 用户账号已暂停
+  password_reset_instruction: 密码重置方法
+
+  # Controllers.
+  #----------------------------------------------------------------------------
+  msg_account_created: 你的账号已经创建，正在等待管理员审核
+  msg_account_not_approved: 你的账号还未被批准
+  msg_asset_deleted: "{{value}} 已经被删除"
+  msg_asset_not_available: 这个 {{value}} 已不存在
+  msg_assets_not_available: 这个 {{value}} 不存在
+  msg_asset_rejected: "{{value}} 已被拒绝"
+  msg_bad_image_file: "^不能将此图片上传或改变大小"
+  msg_cant_create_related: "不能创建 {{asset}} 因为 {{related}} 已不存在"
+  msg_cant_delete_user: "^不能删除用户，因为 {{value}} 有相关 assets 存在"
+  msg_cant_do: "不能 {{action}} {{asset}} 因为它已经不存在"
+  msg_email_not_found: 未找到用户使用此邮件地址
+  msg_enter_new_password: 请输入新密码
+  msg_goodbye: 您已退出，感谢您使用 Fat Free CRM!
+  msg_invalid_password: "^请输入正确密码"
+  msg_invalig_login: 用户名或密码错
+  msg_last_login: 您上次登录是在 {{value}}.
+  msg_login_needed: 必须登录后才可使用本页
+  msg_logout_needed: 必须退出后才可使用本页
+  msg_password_changed: 密码已更改
+  msg_password_not_changed: 密码未更改
+  msg_password_updated: 密码更新成功
+  msg_pwd_instructions_sent: 重置密码方法已经发出，请检查您的邮件
+  msg_require_admin: 必须是管理员才能使用本页
+  msg_successful_signup: 成功申请，欢迎您使用 Fat Free CRM!
+  msg_welcome: 欢迎使用 Fat Free CRM!
+
+  # Options.
+  #----------------------------------------------------------------------------
+  "option_amount*probability": weighted amount
+  activity_options: 显示 {{models}} 行业由 {{user}} 在过去 {{period}}.
+  all_users: 所有用户
+  option_after: 之后
+  option_all: 全部
+  option_all_users: 所有用户
+  option_amount: amount
+  option_before: 之前
+  option_brief: brief
+  option_closes_on: 关闭日期
+  option_company: 公司
+  option_created_at: 创建日期
+  option_ends_on: 结束日期
+  option_first_name: 名
+  option_last_name: 姓
+  option_leads_count: 实际 leads
+  option_long: 长
+  option_name: 名字
+  option_probability: 可能性
+  option_rating: 比率
+  option_revenue: 实际收入
+  option_starts_on: 开始日期
+  option_target_leads: 目标 leads
+  option_target_revenue: 目标收入
+  option_updated_at: 更新日期
+  show_per_page: 显示 {{number}} {{models}} 每页使用 {{format}} 格式 
+  sort_by: 用 {{field}} 排序 {{models}}
+  sort_by_displaying: 用 {{field}} 排序 {{models}}，显示名 {{position}} 姓 
+
+  # Views -> Profile.
+  #----------------------------------------------------------------------------
+  aim: AOL IM
+  already_signed_up: 已申请？
+  alt_email: 另一个 email
+  change_password: 改变密码
+  company: 公司
+  contact_info: 联系人信息
+  current_password: 当前密码
+  edit_profile: 编辑 Profile
+  email: Email
+  first_name: 名
+  google: Google IM
+  gravatar_help: 不熟悉 Gravatars? 了解 Gravatars
+  image_file: 图片文件
+  image_help: 你上传的图片将会被自动改为 75 x 75 像素，支持 GIF, JPG, 和 PNG.
+  job_title: 职位
+  last_name: 姓
+  login_now_link: 现在登录!
+  mobile: 手机
+  my_profile: 我的 Profile
+  new_password: 新密码
+  password: 密码
+  password_confirmation: 确认新密码
+  phone: 电话
+  profile: Profile
+  profile_language: 语言
+  save_profile: 保存 Profile
+  sign_up: 申请
+  sign_up_button: 申请
+  skype: Skype
+  upload_picture: 上传图片
+  use_gravatar: 使用 Gravatar
+  user: 用户
+  username: 用户名
+  yahoo: Yahoo IM
+
+  # Views -> Authenticate.
+  #----------------------------------------------------------------------------
+  forgot_password: 记忆密码
+  login: 登录
+  no_account: 没有账号?
+  remember_me: 记住我
+  sign_up_now: 现在申请!
+
+  # Views -> Accounts.
+  #----------------------------------------------------------------------------
+  account: Account
+  account_small: account
+  accounts: Accounts
+  accounts_options: Accounts Options
+  accounts_small: accounts
+  assigned_to: Assigned to
+  billing_address: Billing address
+  create_account: Create Account
+  date_created: Date Created
+  date_updated: Date Updated
+  fax: Fax
+  intro: You can add {{value}} information later.
+  mobile_small: mobile
+  open_in_window: Open {{value}} in a new window
+  mail_to: Mail to {{value}}
+  phone_small: phone
+  phone_toll_free: Toll-free
+  keep_private: Keep it private, do not share with others
+  make_public: Share it with everyone
+  same_as_billing: same as billing
+  save_account: Save Account
+  share_with: Share it with the following people
+  shipping_address: Shipping address
+  website: Website
+
+  # Views -> Campaigns.
+  #----------------------------------------------------------------------------
+  actual: Actual
+  actual_performance: Actual Performance
+  budget: Budget
+  budget_label: Budget ($)
+  campaign: Campaign
+  campaign_and_leads: campaign and its leads
+  campaign_small: campaign
+  campaign_summary: Campaign Summary
+  campaign_targets: Campaign Targets
+  campaigns: Campaigns
+  campaigns_options: Campaigns Options
+  campaigns_small: campaigns
+  conversion: Conversion
+  conversion_label: Conversion (%)
+  conversion_number: "{{value}} conversion" 
+  create_campaign: Create Campaign
+  end_date: End date
+  finished_on: completed on {{value}}
+  finishes_in: finishes in {{value}}
+  no_start_date: no start date specified
+  number_of_leads: Number of leads
+  objectives: Objectives
+  objectives_help: Please specify target number of leads, expected leads-to-opportunities conversion ratio, target revenue, and campaign budget. These numbers will let you track actual campaign performance.
+  objectives_small: campaign objectives
+  revenue: Revenue
+  revenue_label: Revenue ($)
+  revenue_number: "{{value}} in revenue"
+  save_campaign: Save Campaign
+  start_date: Start date
+  started_ago: started {{value}} ago
+  starts_in: starts in {{value}}
+  starts_today: starts today!
+  target: Target
+  total_campaigns: Total Campaigns
+  was_supposed_to_finish: was supposed to finish on {{value}}
+  was_supposed_to_start: was supposed to start {{time_ago}} ago on {{start_date}}
+    
+  # Views -> Contacts.
+  #----------------------------------------------------------------------------
+  alt_email_small: Other
+  blog: Website/Blog
+  contact: Contact
+  contact_small: contact
+  contacts: Contacts
+  contacts_options: Contacts Options
+  contacts_small: contacts
+  create_contact: Create Contact
+  department: Department
+  department_small: '{{value}} department'
+  do_not_call: Do not call
+  extra_info: Extra Information
+  extra_info_small: extra contact
+  facebook: Facebook
+  linked_in: LinkedIn
+  myself: Myself
+  permissions_intro_private: By default only you will have access to the {{value}}. You can change permissions later.  
+  permissions_intro_public: By default all users will have access to the {{value}}. You can change permissions later.
+  permissions_intro_shared: By default only the selected users will have access to the {{value}}. You can change permissions later.
+  referred_by: Referred by
+  referred_by_small: referred by
+  save_contact: Save Contact
+  twitter: Twitter
+  web_presence: Web Presence
+  web_presence_small: web presence
+  works_at: "{{job_title}} at {{company}}"
+
+  # Views -> Leads.
+  #----------------------------------------------------------------------------
+  convert: Convert
+  convert_lead: Convert Lead
+  convert_lead_permissions_intro: Contact permissions will be copied from the lead being converted. You can change contact permissions later.
+  convert_lead_text: By converting the lead {{value}} will become a contact associated with the existing or newly created account. Lead status will be automatically set to converted.
+  create_lead: Create Lead
+  create_opp_for_contact: You can optionally create an opportunity for the {{value}} contact by specifying the name, current stage, estimated closing date, sale probability, amount of the deal, and the discount offered.
+  lead: Lead
+  lead_info_small: lead contact
+  lead_permissions_intro_private: By default permissions will be copied from the campaign or set to private. You can change lead permissions later.
+  lead_permissions_intro_public: By default permissions will be copied from the campaign or set to public. You can change lead permissions later.  
+  lead_permissions_intro_shared: By default permissions will be copied from the campaign or shared with the specified users. You can change lead permissions later.  
+  lead_small: lead
+  lead_status_small: lead status
+  lead_summary: Lead Summary
+  leads: Leads
+  leads_options: Leads Options
+  leads_small: leads
+  none: None
+  rating: Rating
+  reject: Reject
+  reject_lead_confirm: Are you sure you want to reject this lead?
+  save_lead: Save Lead
+  source: Source
+  status: Status
+  total_leads: Total Leads
+
+  # Views -> Opportunities.
+  #----------------------------------------------------------------------------
+  amount: Amount
+  close_date: Close date
+  closed_ago_on: closed {{time_ago}} ago on {{date}}
+  closes_today: expected to close today!
+  closing_date: closing date is {{value}}
+  create_opportunity: Create Opportunity
+  currency: ($)
+  days_late: Late by
+  days_left: Days left
+  discount: Discount
+  discount_number: with {{value}} discount
+  expected_to_close: expected to close in {{time}} on {{date}}
+  from: from
+  no_closing_date: no expected closing date
+  no_discount: with no discount
+  opportunities: Opportunities
+  opportunities_options: Opportunities Options
+  opportunities_small: opportunities
+  opportunity: Opportunity
+  opportunity_small: opportunity
+  opportunity_summary: Opportunity At a Glance
+  opportunity_summary_text: "{{amount}} with {{discount}} discount and {{probability}} probability" 
+  past_due: past due, was expected to close {{value}} ago
+  probability: Probability
+  probability_number: and {{value}} probability
+  save_opportunity: Save Opportunity
+  stage: Stage
+  total_opportunities: Total Opportunities
+  weighted_amount: Weighted amount
+
+  # Views -> Tasks.
+  #----------------------------------------------------------------------------
+  assign_to: Assign to
+  assigned_tab: Assigned
+  assigned_tasks: Assigned Tasks
+  category: Category
+  completed_tab: Completed
+  completed_tasks: Completed Tasks
+  create_task: Create Task
+  create_task_small: create new task
+  due: Due
+  feel_free: Feel free to
+  move_to: move to
+  no_tasks: "You don't have any {{value}} tasks"
+  no_tasks_pending: pending
+  no_tasks_assigned: assigned
+  no_tasks_completed: completed
+  pending_tab: Pending
+  pending_tasks: Pending Tasks
+  related: 're:'
+  save_task: Save Task
+  task_assigned: The task has been assigned to {{value}}
+  task_assigned_to: and assigned to {{value}}
+  task_completed: completed
+  task_completed_ago: completed {{value}} ago
+  task_completed_by: completed {{time_ago}} ago by {{user}}
+  task_created: The task has been created
+  task_due_in: due in {{value}}
+  task_due_later: due sometime soon
+  task_due_now: due now
+  task_due_today: due today
+  task_from: From {{value}}
+  task_overdue: late, was due on
+  task_pending: The task has been moved to pending tasks
+  task_small: task
+  tasks: Tasks
+  total_tasks: Total {{value}}
+  view_assigned_tasks: view assigned tasks
+  view_pending_tasks: view pending tasks
+
+  # Views -> Home.
+  #----------------------------------------------------------------------------
+  action_commented: commented on
+  action_completed: completed
+  action_created: created
+  action_deleted: deleted
+  action_reassigned: reassigned
+  action_rejected: rejected
+  action_rescheduled: rescheduled
+  action_updated: updated
+  action_viewed: viewed
+  action_won: won
+  no_activity_records: No activity records found.
+  recent_activity: Recent Activity
+  recent_activity_options: Recent Activity Options
+  subject_account: account
+  subject_campaign: campaign
+  subject_contact: contact
+  subject_lead: lead
+  subject_opportunity: opportunity
+  subject_task: task
+
+  # Views -> Common.
+  #----------------------------------------------------------------------------
+  add_note: Add Note
+  save_note: Save Note
+  add_note_help: Add a new note...
+  edit_note: Edit Note
+  added_ago: added {{value}} ago
+  added_by: added {{time_ago}} ago by {{user}} 
+  back: Back
+  cancel: Cancel
+  close_form: Close form
+  confirm_delete: Are you sure you want to delete this {{value}}?
+  copy_permissions: Copy {{value}} permissions
+  could_not_find: "Couldn't find {{value}}. Feel free to"
+  could_not_find_matching: "Couldn't find {{value}} matching"
+  create_new: create new
+  select_existing: select existing
+  delete: Delete
+  edit: Edit
+  items_total: '{{count}} total.'
+  me: me
+  n_a: N/A
+  name: Name
+  no_match: No {{value}} match
+  no_recent_items: There are no recent items to display yet.
+  options: Options
+  permissions: Permissions
+  please_retry: please try another query.
+  recent_items: Recent Items
+  search_assets: Search {{value}}
+  time_ago: "{{value}} ago"
+  background_info: Background
+  address: Address
+  street1: Street 1 # NEW
+  street2: Street 2 # NEW
+  city: City
+  zipcode: Zip Code
+  state: State
+  country: Country
+
+  # Views -> Layout.
+  #----------------------------------------------------------------------------
+  about: About
+  about_dev_group: Discussion group for developers
+  about_features: Features and bugs
+  about_ffc: About Fat Free CRM
+  about_ffc_resources: Fat Free CRM resources (links open a new window)
+  about_ffc_version: Fat Free CRM version
+  about_home_page: Home page
+  about_project_page: Project page
+  about_thank_you: Thank you for using Fat Free CRM! We appreciate your business and hope you enjoy using the software.
+  about_twitter: Twitter commit updates
+  about_user_group: Discussion group for users
+  admin: Admin
+  logout: Logout
+  quick_find: Quick find
+  welcome: Welcome
+
+  # Views -> Comments.
+  #----------------------------------------------------------------------------
+  edit_comment: Editing comment
+  show: Show
+  update: Update
+
+  # Views -> Passwords.
+  #----------------------------------------------------------------------------
+  confirm_password_intro: Please type your new password and then confirm it.
+  password_intro: Please specify your email address, and the instructions to reset your password will be sent to you.
+  reset_password: Reset Password
+  update_password_and_login: Update Password and Login
+
+  # Views -> Admin
+  #----------------------------------------------------------------------------
+  back_to_crm: Back to Fat Free CRM
+  crm_admin_page: Fat Free CRM Administration
+
+  # Views -> Admin -> Users.
+  #----------------------------------------------------------------------------
+  approve: Approve
+  create_user: Create User
+  last_seen: last seen {{value}} ago
+  personal_information: Personal Information
+  reactivate: Reactivate
+  save_user: Save User
+  suspend: Suspend
+  user_active: Active
+  user_admin: Admin
+  user_awaits_approval: awaits your approval
+  user_confirm_delete: A user can only be deleted if no related assets are left behind.
+  user_is_admin: The user is Administrator
+  user_never_logged_in: "hasn't logged in yet"
+  user_signed_up: Signed Up
+  user_signed_up_on: signed up on {{value}}
+  user_since: user since {{value}}
+  user_suspended: Suspended
+  user_suspended_on: suspended on {{value}}
+  users: Users
+  users_small: users
+
+  # Pluralizations.
+  #----------------------------------------------------------------------------
+  pluralize:
+    contact: 
+      one: '1 contact'
+      other: '{{count}} contacts'
+    opportunity:
+      one: '1 opportunity'
+      other: '{{count}} opportunities'
+    lead:
+      one: '1 lead'
+      other: '{{count}} leads'
+    day:
+      one: '1 day'
+      other: '{{count}} days'
+    login:
+      one: '1 login'
+      other: '{{count}} logins'
+
+  # Custom date/time formats.
+  #----------------------------------------------------------------------------
+  date:
+    formats:
+      mmddyyyy: "%m/%d/%Y"
+      mmdd: "%b %e"
+      mmddyy: "%b %e, %Y"
+
+  time:
+    formats:
+      mmddhhss: "%b %e at %l:%M%p"
+      
+  calendar_date_select:
+    ok: OK
+    now: Now
+    today: Today
+    clear: Clear
+
+  # If you need custom format look at 
+  # http://code.google.com/p/calendardateselect/wiki/ChangingDateFormatCustom
+  calendar_date_select_format: american
