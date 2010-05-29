@@ -260,30 +260,30 @@ zh-CN:
 
   # Views -> Accounts.
   #----------------------------------------------------------------------------
-  account: Account
-  account_small: account
-  accounts: Accounts
-  accounts_options: Accounts Options
-  accounts_small: accounts
-  assigned_to: Assigned to
-  billing_address: Billing address
-  create_account: Create Account
-  date_created: Date Created
-  date_updated: Date Updated
-  fax: Fax
-  intro: You can add {{value}} information later.
-  mobile_small: mobile
-  open_in_window: Open {{value}} in a new window
-  mail_to: Mail to {{value}}
-  phone_small: phone
-  phone_toll_free: Toll-free
-  keep_private: Keep it private, do not share with others
-  make_public: Share it with everyone
-  same_as_billing: same as billing
-  save_account: Save Account
-  share_with: Share it with the following people
-  shipping_address: Shipping address
-  website: Website
+  account: 账号 
+  account_small: 短账号
+  accounts: 账号
+  accounts_options: 账号选项
+  accounts_small: 短账号
+  assigned_to: 授予
+  billing_address: 账单地址
+  create_account: 创建账号
+  date_created: 创建日期
+  date_updated: 更新日期
+  fax: 传真
+  intro: 你可以以后添加 {{value}} 信息
+  mobile_small: 手机
+  open_in_window: 在一个新窗口打开　{{value}} 
+  mail_to: 发邮件给 {{value}}
+  phone_small: 电话
+  phone_toll_free: 免费电话
+  keep_private: 保持私有，不与他人分享
+  make_public: 与所有人分享
+  same_as_billing: 与账单相同　
+  save_account: 保存账号
+  share_with: 与他人分享
+  shipping_address: 送货地址
+  website: 网站
 
   # Views -> Campaigns.
   #----------------------------------------------------------------------------
