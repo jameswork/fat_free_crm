@@ -287,42 +287,42 @@ zh-CN:
 
   # Views -> Campaigns.
   #----------------------------------------------------------------------------
-  actual: Actual
-  actual_performance: Actual Performance
-  budget: Budget
-  budget_label: Budget ($)
-  campaign: Campaign
-  campaign_and_leads: campaign and its leads
-  campaign_small: campaign
-  campaign_summary: Campaign Summary
-  campaign_targets: Campaign Targets
-  campaigns: Campaigns
-  campaigns_options: Campaigns Options
-  campaigns_small: campaigns
-  conversion: Conversion
-  conversion_label: Conversion (%)
-  conversion_number: "{{value}} conversion" 
-  create_campaign: Create Campaign
-  end_date: End date
-  finished_on: completed on {{value}}
-  finishes_in: finishes in {{value}}
-  no_start_date: no start date specified
-  number_of_leads: Number of leads
-  objectives: Objectives
-  objectives_help: Please specify target number of leads, expected leads-to-opportunities conversion ratio, target revenue, and campaign budget. These numbers will let you track actual campaign performance.
-  objectives_small: campaign objectives
-  revenue: Revenue
-  revenue_label: Revenue ($)
-  revenue_number: "{{value}} in revenue"
-  save_campaign: Save Campaign
-  start_date: Start date
-  started_ago: started {{value}} ago
-  starts_in: starts in {{value}}
-  starts_today: starts today!
-  target: Target
-  total_campaigns: Total Campaigns
-  was_supposed_to_finish: was supposed to finish on {{value}}
-  was_supposed_to_start: was supposed to start {{time_ago}} ago on {{start_date}}
+  actual: 实际 
+  actual_performance: 实际效益
+  budget: 预算
+  budget_label: 预算 ($)
+  campaign: 战役
+  campaign_and_leads: 战役与领导
+  campaign_small: 战役
+  campaign_summary: 战役摘要
+  campaign_targets: 战役目标
+  campaigns: 战役
+  campaigns_options: 战役选项
+  campaigns_small: 战役
+  conversion:　转换
+  conversion_label: 转换比率 (%)
+  conversion_number: "{{value}} 转换" 
+  create_campaign: 创建战役
+  end_date: 结束日期
+  finished_on: 完成于 {{value}}
+  finishes_in: 用 {{value}} 完成
+  no_start_date: 未指定开始日期
+  number_of_leads: 领导人数
+  objectives: 目标
+  objectives_help: 请指定目标领导数、机会转换率、目标收入、战役预算，这些数据帮助跟踪实际战役产出。
+  objectives_small: 战役目标
+  revenue: 收入
+  revenue_label: 收入 ($)
+  revenue_number: "收入　{{value}}"
+  save_campaign: 保存战役
+  start_date: 开始日期
+  started_ago: 开始于 {{value}} 之前
+  starts_in: 开始了 {{value}}
+  starts_today: 今天开始!
+  target: 目标
+  total_campaigns: 战役总数
+  was_supposed_to_finish: 预计完成于 {{value}}
+  was_supposed_to_start: 预计开始于 {{time_ago}} 之前，在 {{start_date}}
     
   # Views -> Contacts.
   #----------------------------------------------------------------------------
