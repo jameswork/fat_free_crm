@@ -271,7 +271,7 @@ zh-CN:
   date_created: 创建日期
   date_updated: 更新日期
   fax: 传真
-  intro: 你可以以后添加 {{value}} 信息
+  intro: 你可以以后添加 {{value}} 
   mobile_small: 手机
   open_in_window: 在一个新窗口打开　{{value}} 
   mail_to: 发邮件给 {{value}}
@@ -299,7 +299,7 @@ zh-CN:
   campaigns: 战役
   campaigns_options: 战役选项
   campaigns_small: 战役
-  conversion:　转换
+  conversion: 转换
   conversion_label: 转换比率 (%)
   conversion_number: "{{value}} 转换" 
   create_campaign: 创建战役
@@ -326,32 +326,32 @@ zh-CN:
     
   # Views -> Contacts.
   #----------------------------------------------------------------------------
-  alt_email_small: Other
+  alt_email_small: 其它
   blog: Website/Blog
-  contact: Contact
-  contact_small: contact
-  contacts: Contacts
-  contacts_options: Contacts Options
-  contacts_small: contacts
-  create_contact: Create Contact
-  department: Department
-  department_small: '{{value}} department'
-  do_not_call: Do not call
-  extra_info: Extra Information
-  extra_info_small: extra contact
+  contact: 联系人
+  contact_small: 联系人
+  contacts: 联系人
+  contacts_options: 联系人选项
+  contacts_small: 联系人
+  create_contact: 创建联系人
+  department: 部门
+  department_small: '{{value}} 部门'
+  do_not_call: 不要打电话
+  extra_info: 更多信息
+  extra_info_small: 更多信息
   facebook: Facebook
   linked_in: LinkedIn
-  myself: Myself
-  permissions_intro_private: By default only you will have access to the {{value}}. You can change permissions later.  
-  permissions_intro_public: By default all users will have access to the {{value}}. You can change permissions later.
-  permissions_intro_shared: By default only the selected users will have access to the {{value}}. You can change permissions later.
-  referred_by: Referred by
-  referred_by_small: referred by
-  save_contact: Save Contact
+  myself: 自己
+  permissions_intro_private: 默认只有你对 {{value}} 有权限。你可以以后修改权限。  
+  permissions_intro_public: 默认所有用户都对 {{value}} 有权限。你可以以后修改权限。
+  permissions_intro_shared: 默认只有选定用户对 {{value}} 有权限。你可以以后修改权限。
+  referred_by: 引用
+  referred_by_small: 引用
+  save_contact: 保存联系人
   twitter: Twitter
-  web_presence: Web Presence
-  web_presence_small: web presence
-  works_at: "{{job_title}} at {{company}}"
+  web_presence: web
+  web_presence_small: web
+  works_at: "{{job_title}} 在 {{company}}"
 
   # Views -> Leads.
   #----------------------------------------------------------------------------
