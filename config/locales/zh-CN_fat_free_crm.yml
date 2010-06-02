@@ -18,7 +18,7 @@ zh-CN:
   tab_dashboard: 摘要
   tab_tasks: 任务
   tab_campaigns: 战役
-  tab_leads: Leads
+  tab_leads: 线索 
   tab_accounts: 账号
   tab_contacts: 联系人
   tab_opportunities: 机会
@@ -190,23 +190,23 @@ zh-CN:
   option_after: 之后
   option_all: 全部
   option_all_users: 所有用户
-  option_amount: amount
+  option_amount: 数量
   option_before: 之前
-  option_brief: brief
+  option_brief: 概要
   option_closes_on: 关闭日期
   option_company: 公司
   option_created_at: 创建日期
   option_ends_on: 结束日期
   option_first_name: 名
   option_last_name: 姓
-  option_leads_count: 实际 leads
+  option_leads_count: 实际线索
   option_long: 长
   option_name: 名字
   option_probability: 可能性
   option_rating: 比率
   option_revenue: 实际收入
   option_starts_on: 开始日期
-  option_target_leads: 目标 leads
+  option_target_leads: 目标线索
   option_target_revenue: 目标收入
   option_updated_at: 更新日期
   show_per_page: 显示 {{number}} {{models}} 每页使用 {{format}} 格式 
@@ -222,7 +222,7 @@ zh-CN:
   company: 公司
   contact_info: 联系人信息
   current_password: 当前密码
-  edit_profile: 编辑 Profile
+  edit_profile: 编辑个人设置
   email: Email
   first_name: 名
   google: Google IM
@@ -233,14 +233,14 @@ zh-CN:
   last_name: 姓
   login_now_link: 现在登录!
   mobile: 手机
-  my_profile: 我的 Profile
+  my_profile: 我的个人设置
   new_password: 新密码
   password: 密码
   password_confirmation: 确认新密码
   phone: 电话
-  profile: Profile
+  profile: 个人设置
   profile_language: 语言
-  save_profile: 保存 Profile
+  save_profile: 保存个人设置
   sign_up: 申请
   sign_up_button: 申请
   skype: Skype
@@ -271,10 +271,10 @@ zh-CN:
   date_created: 创建日期
   date_updated: 更新日期
   fax: 传真
-  intro: 你可以以后添加 {{value}} 
+  intro: 你可以以后添加{{value}} 
   mobile_small: 手机
-  open_in_window: 在一个新窗口打开　{{value}} 
-  mail_to: 发邮件给 {{value}}
+  open_in_window: 在一个新窗口打开{{value}} 
+  mail_to: 发邮件给{{value}}
   phone_small: 电话
   phone_toll_free: 免费电话
   keep_private: 保持私有，不与他人分享
@@ -290,7 +290,7 @@ zh-CN:
   actual: 实际 
   actual_performance: 实际效益
   budget: 预算
-  budget_label: 预算 ($)
+  budget_label: 预算($)
   campaign: 战役
   campaign_and_leads: 战役与领导
   campaign_small: 战役
@@ -300,20 +300,20 @@ zh-CN:
   campaigns_options: 战役选项
   campaigns_small: 战役
   conversion: 转换
-  conversion_label: 转换比率 (%)
+  conversion_label: 转换比率(%)
   conversion_number: "{{value}} 转换" 
   create_campaign: 创建战役
   end_date: 结束日期
   finished_on: 完成于 {{value}}
   finishes_in: 用 {{value}} 完成
   no_start_date: 未指定开始日期
-  number_of_leads: 领导人数
+  number_of_leads: 线索数
   objectives: 目标
-  objectives_help: 请指定目标领导数、机会转换率、目标收入、战役预算，这些数据帮助跟踪实际战役产出。
+  objectives_help: 请指定目标线索数、机会转换率、目标收入、战役预算，这些数据帮助跟踪实际战役产出。
   objectives_small: 战役目标
   revenue: 收入
-  revenue_label: 收入 ($)
-  revenue_number: "收入　{{value}}"
+  revenue_label: 收入($)
+  revenue_number: "收入{{value}}"
   save_campaign: 保存战役
   start_date: 开始日期
   started_ago: 开始于 {{value}} 之前
@@ -355,8 +355,8 @@ zh-CN:
 
   # Views -> Leads.
   #----------------------------------------------------------------------------
-  convert: Convert
-  convert_lead: Convert Lead
+  convert: 转换
+  convert_lead: 转换线索
   convert_lead_permissions_intro: Contact permissions will be copied from the lead being converted. You can change contact permissions later.
   convert_lead_text: By converting the lead {{value}} will become a contact associated with the existing or newly created account. Lead status will be automatically set to converted.
   create_lead: Create Lead
