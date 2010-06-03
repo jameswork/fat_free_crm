@@ -192,7 +192,7 @@ zh-CN:
   option_all_users: 所有用户
   option_amount: 数量
   option_before: 之前
-  option_brief: 概要
+  option_brief: 短
   option_closes_on: 关闭日期
   option_company: 公司
   option_created_at: 创建日期
@@ -342,9 +342,9 @@ zh-CN:
   facebook: Facebook
   linked_in: LinkedIn
   myself: 自己
-  permissions_intro_private: 默认只有你对 {{value}} 有权限。你可以以后修改权限。  
-  permissions_intro_public: 默认所有用户都对 {{value}} 有权限。你可以以后修改权限。
-  permissions_intro_shared: 默认只有选定用户对 {{value}} 有权限。你可以以后修改权限。
+  permissions_intro_private: 默认只有你对 {{value}} 有权限。以后可修改。  
+  permissions_intro_public: 默认所有用户都对 {{value}} 有权限。以后可修改。
+  permissions_intro_shared: 默认只有选定用户对 {{value}} 有权限。以后可修改。
   referred_by: 引用
   referred_by_small: 引用
   save_contact: 保存联系人
@@ -357,61 +357,61 @@ zh-CN:
   #----------------------------------------------------------------------------
   convert: 转换
   convert_lead: 转换线索
-  convert_lead_permissions_intro: Contact permissions will be copied from the lead being converted. You can change contact permissions later.
-  convert_lead_text: By converting the lead {{value}} will become a contact associated with the existing or newly created account. Lead status will be automatically set to converted.
-  create_lead: Create Lead
-  create_opp_for_contact: You can optionally create an opportunity for the {{value}} contact by specifying the name, current stage, estimated closing date, sale probability, amount of the deal, and the discount offered.
-  lead: Lead
-  lead_info_small: lead contact
-  lead_permissions_intro_private: By default permissions will be copied from the campaign or set to private. You can change lead permissions later.
-  lead_permissions_intro_public: By default permissions will be copied from the campaign or set to public. You can change lead permissions later.  
-  lead_permissions_intro_shared: By default permissions will be copied from the campaign or shared with the specified users. You can change lead permissions later.  
-  lead_small: lead
-  lead_status_small: lead status
-  lead_summary: Lead Summary
-  leads: Leads
-  leads_options: Leads Options
-  leads_small: leads
-  none: None
-  rating: Rating
-  reject: Reject
-  reject_lead_confirm: Are you sure you want to reject this lead?
-  save_lead: Save Lead
-  source: Source
-  status: Status
-  total_leads: Total Leads
+  convert_lead_permissions_intro: 联系人权限将会从被转换的线索中复制。以后可修改。
+  convert_lead_text: 转换线索 {{value}} 将会使其变成一个与现有或新建账号关联的联系人，线索状态自动设为已转换。
+  create_lead: 创建线索
+  create_opp_for_contact: 可以为 {{value}} 联系人创建一个机会，需指定名称、当前阶段、预计结束日期、销售可能性、线索数量、折扣。
+  lead: 线索
+  lead_info_small: 线索联系人
+  lead_permissions_intro_private: 默认从战役复制权限或设为私有。以后可修改。
+  lead_permissions_intro_public: 默认从战役复制权限或设为公有。以后可修改。
+  lead_permissions_intro_shared: 默认从战役复制权限或设为与特定用户分享。以后可修改。
+  lead_small: 线索
+  lead_status_small: 线索状态
+  lead_summary: 线索摘要
+  leads: 线索
+  leads_options: 线索选项
+  leads_small: 线索
+  none: 无
+  rating: 比率
+  reject: 拒绝
+  reject_lead_confirm: 确认拒绝此线索？
+  save_lead: 保存线索
+  source: 源
+  status: 状态
+  total_leads: 线索总计
 
   # Views -> Opportunities.
   #----------------------------------------------------------------------------
-  amount: Amount
-  close_date: Close date
-  closed_ago_on: closed {{time_ago}} ago on {{date}}
-  closes_today: expected to close today!
-  closing_date: closing date is {{value}}
-  create_opportunity: Create Opportunity
+  amount: 金额
+  close_date: 结束日期
+  closed_ago_on: 结束于 {{time_ago}} 之前，在 {{date}}
+  closes_today: 预计今天结束!
+  closing_date: 结束日期是 {{value}}
+  create_opportunity: 创建机会
   currency: ($)
-  days_late: Late by
-  days_left: Days left
-  discount: Discount
-  discount_number: with {{value}} discount
-  expected_to_close: expected to close in {{time}} on {{date}}
-  from: from
-  no_closing_date: no expected closing date
-  no_discount: with no discount
-  opportunities: Opportunities
-  opportunities_options: Opportunities Options
-  opportunities_small: opportunities
-  opportunity: Opportunity
-  opportunity_small: opportunity
-  opportunity_summary: Opportunity At a Glance
-  opportunity_summary_text: "{{amount}} with {{discount}} discount and {{probability}} probability" 
-  past_due: past due, was expected to close {{value}} ago
-  probability: Probability
-  probability_number: and {{value}} probability
-  save_opportunity: Save Opportunity
-  stage: Stage
-  total_opportunities: Total Opportunities
-  weighted_amount: Weighted amount
+  days_late: 晚了
+  days_left: 天剩余
+  discount: 折扣
+  discount_number: 有 {{value}} 折扣
+  expected_to_close: 预计结束于 {{time}} ，在 {{date}}
+  from: 从
+  no_closing_date: 没有预计结束日期
+  no_discount: 没有折扣
+  opportunities: 机会
+  opportunities_options: 机会选项
+  opportunities_small: 机会
+  opportunity: 机会
+  opportunity_small: 机会
+  opportunity_summary: 机会摘要
+  opportunity_summary_text: "{{amount}} 有 {{discount}} 折扣和 {{probability}} 可能性" 
+  past_due: 超过预计, 预计结束于 {{value}} 之前
+  probability: 可能性
+  probability_number: 有 {{value}} 可能性
+  save_opportunity: 保存机会
+  stage: 阶段
+  total_opportunities: 机会总计
+  weighted_amount: 权重数量
 
   # Views -> Tasks.
   #----------------------------------------------------------------------------
