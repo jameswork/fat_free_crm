@@ -290,7 +290,7 @@ zh-CN:
   actual: 实际 
   actual_performance: 实际效益
   budget: 预算
-  budget_label: 预算($)
+  budget_label: 预算(¥)
   campaign: 战役
   campaign_and_leads: 战役与领导
   campaign_small: 战役
@@ -312,7 +312,7 @@ zh-CN:
   objectives_help: 请指定目标线索数、机会转换率、目标收入、战役预算，这些数据帮助跟踪实际战役产出。
   objectives_small: 战役目标
   revenue: 收入
-  revenue_label: 收入($)
+  revenue_label: 收入(¥)
   revenue_number: "收入{{value}}"
   save_campaign: 保存战役
   start_date: 开始日期
@@ -389,7 +389,7 @@ zh-CN:
   closes_today: 预计今天结束!
   closing_date: 结束日期是 {{value}}
   create_opportunity: 创建机会
-  currency: ($)
+  currency: (¥)
   days_late: 晚了
   days_left: 天剩余
   discount: 折扣
@@ -415,65 +415,65 @@ zh-CN:
 
   # Views -> Tasks.
   #----------------------------------------------------------------------------
-  assign_to: Assign to
-  assigned_tab: Assigned
-  assigned_tasks: Assigned Tasks
-  category: Category
-  completed_tab: Completed
-  completed_tasks: Completed Tasks
-  create_task: Create Task
-  create_task_small: create new task
-  due: Due
-  feel_free: Feel free to
-  move_to: move to
-  no_tasks: "You don't have any {{value}} tasks"
-  no_tasks_pending: pending
-  no_tasks_assigned: assigned
-  no_tasks_completed: completed
-  pending_tab: Pending
-  pending_tasks: Pending Tasks
-  related: 're:'
-  save_task: Save Task
-  task_assigned: The task has been assigned to {{value}}
-  task_assigned_to: and assigned to {{value}}
-  task_completed: completed
-  task_completed_ago: completed {{value}} ago
-  task_completed_by: completed {{time_ago}} ago by {{user}}
-  task_created: The task has been created
-  task_due_in: due in {{value}}
-  task_due_later: due sometime soon
-  task_due_now: due now
-  task_due_today: due today
-  task_from: From {{value}}
-  task_overdue: late, was due on
-  task_pending: The task has been moved to pending tasks
-  task_small: task
-  tasks: Tasks
-  total_tasks: Total {{value}}
-  view_assigned_tasks: view assigned tasks
-  view_pending_tasks: view pending tasks
+  assign_to: 分配给
+  assigned_tab: 已分配
+  assigned_tasks: 已分配任务
+  category: 类别
+  completed_tab: 已完成
+  completed_tasks: 已完成任务
+  create_task: 创建任务
+  create_task_small: 创建新任务
+  due: 期限
+  feel_free: 可任意
+  move_to: 移动到
+  no_tasks: "你没有任何 {{value}} 任务"
+  no_tasks_pending: 进行中
+  no_tasks_assigned: 已分配
+  no_tasks_completed: 完成
+  pending_tab: 进行中
+  pending_tasks: 进行中任务
+  related: '相关:'
+  save_task: 保存任务
+  task_assigned: 任务已经分配给 {{value}}
+  task_assigned_to: 并分配给 {{value}}
+  task_completed: 已完成
+  task_completed_ago: 完成于 {{value}} 以前
+  task_completed_by: 由 {{user}} 完成于 {{time_ago}} 以前
+  task_created: 任务已被创建
+  task_due_in: 期限是 {{value}}
+  task_due_later: 很快到期
+  task_due_now: 现在到期
+  task_due_today: 今天到期
+  task_from: 从 {{value}}
+  task_overdue: 晚了，应到期于
+  task_pending: 已被移动到进行中任务
+  task_small: 任务
+  tasks: 任务
+  total_tasks: 总计 {{value}}
+  view_assigned_tasks: 查看已分配任务
+  view_pending_tasks: 查看进行中任务
 
   # Views -> Home.
   #----------------------------------------------------------------------------
-  action_commented: commented on
-  action_completed: completed
-  action_created: created
-  action_deleted: deleted
-  action_reassigned: reassigned
-  action_rejected: rejected
-  action_rescheduled: rescheduled
-  action_updated: updated
-  action_viewed: viewed
-  action_won: won
-  no_activity_records: No activity records found.
-  recent_activity: Recent Activity
-  recent_activity_options: Recent Activity Options
-  subject_account: account
-  subject_campaign: campaign
-  subject_contact: contact
-  subject_lead: lead
-  subject_opportunity: opportunity
-  subject_task: task
+  action_commented: 评论于
+  action_completed: 已完成
+  action_created: 已创建
+  action_deleted: 已删除
+  action_reassigned: 已重新分配
+  action_rejected: 已拒绝
+  action_rescheduled: 已重定时间表
+  action_updated: 已更新
+  action_viewed: 已查看
+  action_won: 赢
+  no_activity_records: 没有行为记录
+  recent_activity: 最近行为
+  recent_activity_options: 最近行为选项
+  subject_account: 账号
+  subject_campaign: 战役
+  subject_contact: 联系人
+  subject_lead: 线索
+  subject_opportunity: 机会
+  subject_task: 任务
 
   # Views -> Common.
   #----------------------------------------------------------------------------
