@@ -218,10 +218,10 @@ zh-CN:
   aim: AOL IM
   already_signed_up: 已申请？
   alt_email: 另一个 email
-  change_password: 改变密码
+  change_password: 修改密码
   company: 公司
   contact_info: 联系人信息
-  current_password: 当前密码
+  current_password: 旧密码
   edit_profile: 编辑个人设置
   email: Email
   first_name: 名
@@ -252,7 +252,7 @@ zh-CN:
 
   # Views -> Authenticate.
   #----------------------------------------------------------------------------
-  forgot_password: 记忆密码
+  forgot_password: 忘记密码
   login: 登录
   no_account: 没有账号?
   remember_me: 记住我
@@ -482,122 +482,122 @@ zh-CN:
   add_note_help: 添加一个新注释...
   edit_note: 编辑注释
   added_ago: 添加于 {{value}} 之前
-  added_by: added {{time_ago}} ago by {{user}} 
-  back: Back
-  cancel: Cancel
-  close_form: Close form
-  confirm_delete: Are you sure you want to delete this {{value}}?
-  copy_permissions: Copy {{value}} permissions
-  could_not_find: "Couldn't find {{value}}. Feel free to"
-  could_not_find_matching: "Couldn't find {{value}} matching"
-  create_new: create new
-  select_existing: select existing
-  delete: Delete
-  edit: Edit
-  items_total: '{{count}} total.'
-  me: me
-  n_a: N/A
-  name: Name
-  no_match: No {{value}} match
-  no_recent_items: There are no recent items to display yet.
-  options: Options
-  permissions: Permissions
-  please_retry: please try another query.
-  recent_items: Recent Items
-  search_assets: Search {{value}}
-  time_ago: "{{value}} ago"
-  background_info: Background
-  address: Address
-  street1: Street 1 # NEW
-  street2: Street 2 # NEW
-  city: City
-  zipcode: Zip Code
-  state: State
-  country: Country
+  added_by: 添加于 {{time_ago}} 之前，由 {{user}} 
+  back: 返回
+  cancel: 取消
+  close_form: 关闭，由
+  confirm_delete: 确认删除 {{value}}?
+  copy_permissions: 复制 {{value}} 权限
+  could_not_find: "未找到 {{value}}. 请"
+  could_not_find_matching: "未找到 {{value}} 匹配"
+  create_new: 创建新
+  select_existing: 选择已有
+  delete: 删除
+  edit: 编辑
+  items_total: '{{count}} 总计'
+  me: 自己
+  n_a: 无
+  name: 名字
+  no_match: 无 {{value}} 匹配
+  no_recent_items: 没有最近条目
+  options: 选项
+  permissions: 权限
+  please_retry: 请再试一次
+  recent_items: 最近项目
+  search_assets: 查找 {{value}}
+  time_ago: "{{value}} 以前"
+  background_info: 背景
+  address: 地址
+  street1: 街道 1 # NEW
+  street2: 街道 2 # NEW
+  city: 城市
+  zipcode: 邮编
+  state: 省
+  country: 国家
 
   # Views -> Layout.
   #----------------------------------------------------------------------------
-  about: About
-  about_dev_group: Discussion group for developers
-  about_features: Features and bugs
-  about_ffc: About Fat Free CRM
-  about_ffc_resources: Fat Free CRM resources (links open a new window)
-  about_ffc_version: Fat Free CRM version
-  about_home_page: Home page
-  about_project_page: Project page
-  about_thank_you: Thank you for using Fat Free CRM! We appreciate your business and hope you enjoy using the software.
-  about_twitter: Twitter commit updates
-  about_user_group: Discussion group for users
-  admin: Admin
-  logout: Logout
-  quick_find: Quick find
-  welcome: Welcome
+  about: 关于
+  about_dev_group: 开发者讨论组
+  about_features: 特性与bugs
+  about_ffc: 关于 Fat Free CRM
+  about_ffc_resources: Fat Free CRM 资源 (在新窗口打开)
+  about_ffc_version: Fat Free CRM 版本
+  about_home_page: 主页
+  about_project_page: 项目页
+  about_thank_you: 感谢使用Fat Free CRM! 希望使用愉快.
+  about_twitter: Twitter 更新
+  about_user_group: 用户讨论组
+  admin: 管理
+  logout: 退出
+  quick_find: 快速查找
+  welcome: 欢迎
 
   # Views -> Comments.
   #----------------------------------------------------------------------------
-  edit_comment: Editing comment
-  show: Show
-  update: Update
+  edit_comment: 编辑评论
+  show: 显示
+  update: 更新
 
   # Views -> Passwords.
   #----------------------------------------------------------------------------
-  confirm_password_intro: Please type your new password and then confirm it.
-  password_intro: Please specify your email address, and the instructions to reset your password will be sent to you.
-  reset_password: Reset Password
-  update_password_and_login: Update Password and Login
+  confirm_password_intro: 请输入新密码并确认
+  password_intro: 请输入邮件地址，重置密码邮件将发到您的邮箱
+  reset_password: 重置密码
+  update_password_and_login: 更新密码并登录
 
   # Views -> Admin
   #----------------------------------------------------------------------------
-  back_to_crm: Back to Fat Free CRM
-  crm_admin_page: Fat Free CRM Administration
+  back_to_crm: 返回 Fat Free CRM
+  crm_admin_page: Fat Free CRM 管理
 
   # Views -> Admin -> Users.
   #----------------------------------------------------------------------------
-  approve: Approve
-  create_user: Create User
-  last_seen: last seen {{value}} ago
-  personal_information: Personal Information
-  reactivate: Reactivate
-  save_user: Save User
-  suspend: Suspend
-  user_active: Active
-  user_admin: Admin
-  user_awaits_approval: awaits your approval
-  user_confirm_delete: A user can only be deleted if no related assets are left behind.
-  user_is_admin: The user is Administrator
-  user_never_logged_in: "hasn't logged in yet"
-  user_signed_up: Signed Up
-  user_signed_up_on: signed up on {{value}}
-  user_since: user since {{value}}
-  user_suspended: Suspended
-  user_suspended_on: suspended on {{value}}
-  users: Users
-  users_small: users
+  approve: 批准
+  create_user: 创建用户
+  last_seen: 上次 {{value}} 之前见到
+  personal_information: 个人信息
+  reactivate: 重新激活
+  save_user: 保存用户
+  suspend: 暂停
+  user_active: 激活
+  user_admin: 管理
+  user_awaits_approval: 等待您的批准
+  user_confirm_delete: 只有没有其它相关信息的用户才能被删除
+  user_is_admin: 此用户是管理员
+  user_never_logged_in: "尚未登录"
+  user_signed_up: 已申请
+  user_signed_up_on: 申请于 {{value}}
+  user_since: 用户自 {{value}}
+  user_suspended: 暂停
+  user_suspended_on: 暂停于 {{value}}
+  users: 用户
+  users_small: 用户
 
   # Pluralizations.
   #----------------------------------------------------------------------------
   pluralize:
     contact: 
-      one: '1 contact'
-      other: '{{count}} contacts'
+      one: '1 个联系人'
+      other: '{{count}} 个联系人'
     opportunity:
-      one: '1 opportunity'
-      other: '{{count}} opportunities'
+      one: '1 个机会'
+      other: '{{count}} 个机会'
     lead:
-      one: '1 lead'
-      other: '{{count}} leads'
+      one: '1 个线索'
+      other: '{{count}} 个线索'
     day:
-      one: '1 day'
-      other: '{{count}} days'
+      one: '1 天'
+      other: '{{count}} 天'
     login:
-      one: '1 login'
-      other: '{{count}} logins'
+      one: '1 个登录'
+      other: '{{count}} 个登录'
 
   # Custom date/time formats.
   #----------------------------------------------------------------------------
   date:
     formats:
-      mmddyyyy: "%m/%d/%Y"
+      mmddyyyy: "%Y-%m-%d"
       mmdd: "%b %e"
       mmddyy: "%b %e, %Y"
 
@@ -607,9 +607,9 @@ zh-CN:
       
   calendar_date_select:
     ok: OK
-    now: Now
-    today: Today
-    clear: Clear
+    now: 现在
+    today: 今天
+    clear: 清除
 
   # If you need custom format look at 
   # http://code.google.com/p/calendardateselect/wiki/ChangingDateFormatCustom
