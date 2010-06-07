@@ -271,7 +271,7 @@ zh-CN:
   date_created: 创建日期
   date_updated: 更新日期
   fax: 传真
-  intro: 你可以以后添加{{value}} 
+  intro: 可稍后添加{{value}} 
   mobile_small: 手机
   open_in_window: 在一个新窗口打开{{value}} 
   mail_to: 发邮件给{{value}}
