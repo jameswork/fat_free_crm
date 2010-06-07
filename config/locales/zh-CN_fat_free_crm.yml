@@ -373,7 +373,7 @@ zh-CN:
   leads_options: 线索选项
   leads_small: 线索
   none: 无
-  rating: 比率
+  rating: 星级
   reject: 拒绝
   reject_lead_confirm: 确认拒绝此线索？
   save_lead: 保存线索
@@ -613,4 +613,4 @@ zh-CN:
 
   # If you need custom format look at 
   # http://code.google.com/p/calendardateselect/wiki/ChangingDateFormatCustom
-  calendar_date_select_format: american
+  calendar_date_select_format: hyphen_ampm
